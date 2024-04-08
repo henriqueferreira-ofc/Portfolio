@@ -9,4 +9,4 @@ Esse Projeto trás uma visão  de informações a respeito da minha área de des
 - JavaScript
 - Bootstrap
 
-![Portfólio](https://github.com/henriquearaujooficial/Portfolio/blob/main/portfolio.png)
+![Portfólio](https://github.com/henriquearaujooficial/Portfolio/blob/master/.github/portfolio.png)
