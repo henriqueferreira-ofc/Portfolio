@@ -450,7 +450,7 @@ footer .line-footer p a {
   .btn-social {
     text-align: center;
   }
-  
+
   .btn-social button {
     width: 40px;
     height: 40px;
@@ -489,5 +489,79 @@ footer .line-footer p a {
 
   footer .line-footer {
     text-align: center;
+  }
+}
+
+/* ESTILO DO RODAPÉ MODIFICADO */
+footer {
+  padding: 10px 2%;
+  background-color: #020202; /* Fundo mais escuro para contraste */
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 20px 10px rgba(24, 23, 23, 0.11);
+}
+
+footer .line-footer {
+  padding: 5px 0;
+  margin-top: 10px;
+}
+
+.borda {
+  border-top: 2px solid #00ff08;
+  margin-bottom: 10px;
+}
+
+footer .line-footer p {
+  font-size: 16px;
+  margin: 0;
+}
+
+footer .line-footer p i {
+  color: #00ff08;
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+footer .line-footer p a {
+  color: #00ff08;
+  text-decoration: none;
+  font-weight: 200;
+  transition: color 0.3s;
+}
+
+footer .line-footer p a:hover {
+  color: #57ad5a; /* Alteração de cor ao passar o mouse */
+}
+
+footer .logo {
+  position: absolute;
+  top: 5px; /* Aproxima a logo da linha verde */
+  left: 50%;
+  transform: translateX(10%);
+}
+.logo-footer img {
+  width: 140px; /* Ajuste do tamanho da logo */
+}
+
+.heart {
+  color: red; /* Define o coração com a cor vermelha */
+}
+
+/* ESTILO RESPONSIVO DO RODAPÉ */
+@media screen and (max-width: 1020px) {
+  footer {
+    padding: 10px 4%;
+  }
+
+  .logo-footer img {
+    width: 100px; /* Tamanho da logo ajustado para telas menores */
+  }
+
+  footer .line-footer p {
+    font-size: 10px;
+  }
+
+  footer .line-footer p i {
+    font-size: 5px;
   }
 }
