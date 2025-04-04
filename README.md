@@ -1,5 +1,5 @@
 # Protfólio
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/henriquearaujooficial/Portfolio/blob/master/LICENSE)
+[![NPM](https://github.com/henriqueferreira-ofc/portfoliohenrique/blob/main/LICENSE)
 
 Projeto desenvolido em um curso no Youtube onde conseguir aprimorar minhas habilidades nas linguagens abaixo.
 
